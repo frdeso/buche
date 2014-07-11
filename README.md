@@ -20,3 +20,7 @@ $> ./main
 09:22:42.929797290 - iteration #1 - [foobar() main.c +8]
 09:22:42.929803222 - iteration #2 - [foobar() main.c +8]
 </pre></code>
+
+
+###How to use it
+Copy the buche.h file to your project directory and use the #include directive to have access to the BUCHE macro.
