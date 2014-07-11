@@ -7,6 +7,7 @@
 #include <stdlib.h>
 //This function is based on lttng-tools debugging macros
 // http://git.lttng.org/?p=lttng-tools.git;a=blob;f=src/common/error.c
+static
 void stringify_time(char *buff)
 {
 	struct tm tm;
