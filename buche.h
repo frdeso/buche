@@ -23,13 +23,9 @@ void stringify_time(char *buff)
 }
 #define BUCHE(fmt, args...) \
     do{ 				\
-	char* buff = malloc(sizeof(char)*512); \
+	char buff[1<<5]; \
     	stringify_time(buff);	\
-	fprintf(stderr, "%s",buff); 		\
-	fprintf(stderr, " - "); 	\
-	fprintf(stderr, fmt,## args);	\
-	fprintf(stderr," - [%s() %s +%d]\n",__func__, __FILE__,__LINE__);	\
-	free(buff);			\
+	fprintf(stderr,"%s - "fmt" - [%s() %s +%d]\n",buff,## args,__func__, __FILE__, __LINE__);	\
     } while (0);
 
 
