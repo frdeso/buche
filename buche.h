@@ -2,7 +2,6 @@
 #define _BUCHE_H_
 
 #include <time.h>
-#include <inttypes.h>
 #include <stdio.h>
 #include <stdlib.h>
 //This function is based on lttng-tools debugging macros
