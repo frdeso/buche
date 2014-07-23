@@ -26,7 +26,7 @@ void stringify_time(char *buff)
     do{ 				\
 	char buff[BUCHE_BUFFER_SIZE]; \
     	stringify_time(buff);	\
-	fprintf(stderr,"%s - " fmt " - [%s() %s +%d]\n",buff,## args,__func__, __FILE__, __LINE__);	\
+	fprintf(stderr,"%s - " fmt " - [%s() %s +%d]\n", buff, ## args, __func__, __FILE__, __LINE__);	\
     } while (0);
 
 #endif // _BUCHE_H_
