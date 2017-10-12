@@ -4,7 +4,7 @@ buche
 Buche is Log.
 
 
-###Example
+### Example
 <pre><code>
 $> ./main
 09:22:37.928719478 - hello, World! - [main() main.c +16]
@@ -22,5 +22,5 @@ $> ./main
 </pre></code>
 
 
-###How to use it
+### How to use it
 Copy the buche.h file to your project directory and use the #include directive to have access to the BUCHE macro.
